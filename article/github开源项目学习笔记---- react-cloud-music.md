@@ -49,19 +49,24 @@ npm run build
 - react-router-config   来渲染路由，只要提供路由配置表
 - react-transition-group  react动画，过渡组件
 - redux-thunk   redux中间件
-- styled-components  使用样式组件化
+- styled-components  使用样式组件化，区分全局/局部样式
 - express 开启node服务
 - compression  node中间件，在服务端压缩代码
 
 
 ### 项目优点
 
-- 使用react16.8的新语法特性，lazy,Suspense异步加载组件，提高性能im
+- 使用react16.8的新语法特性，lazy,Suspense异步加载组件
+- 使用React.memo来避免函数组件的重复渲染，通过判断props状态是否改变，相当于组件的PureComponet
 - 使用hook来写组件
 - 使用  <></> 来代替 ,<div></div>，<Fragment></Fragment>包裹层
 - 使用jest+enzyme做了单元测试
 - 使用concurrently同时启动多个命令
 
+  
+### 总结
+styled-components虽然可以把样式封装成一个组件的形式把元素包裹起来，但是IDE的不支持语法高亮，自动补全，个人不太喜欢；
+  
   
 
 ### 项目结构
@@ -81,157 +86,52 @@ npm run build
 │  └─jest                                             // 单元测试文件夹
 │          cssTransform.js                              //
 │          fileTransform.js                             //
-│                                                       //
+│                                                       
 ├─NeteaseCloudMusicApi                                 // 接口存放的文件夹，要通过命令单独下载
 ├─public                                               // 公用资源文件夹                         
 │      favicon.ico
-│      index.html
-│      manifest.json
-│                                                       //
-├─scripts                                              //
+│      index.html                                       // 模板文件
+│      manifest.json                                    // 将站点添加至主屏幕配置文件
+│                                                       
+├─scripts                                              // 脚本启动文件夹
 │      build.js                                         // 打包命令
 │      start.js                                         // 启动命令
 │      test.js                                          // 单元测试
 │
 └─src
-    │  App.js
-    │  fix.css
-    │  index.js
-    │  logo.svg
-    │  serviceWorker.js
-    │  style.js
-    │  tree.txt
+    │  App.js                                           // 路由配置、全局样式，redux注入
+    │  fix.css                                          // 移动端兼容高清屏的样式写法
+    │  index.js                                         // 项目入口文件
+    │  serviceWorker.js                                 // 实现离线浏览
+    │  style.js                                         // 通过引入createGlobalStyle来创建全局样式
     │
-    ├─api
-    │      config.js
-    │      lyric-parser.js
-    │      request.js
-    │      script.js
-    │      utils.js
+    ├─api                                              //
+    │      config.js                                    // axios基本的配置、拦截器等
+    │      lyric-parser.js                              // 解析歌词一个方法
+    │      request.js                                   // 把api接口封装成一个个方法
+    │      script.js                                    // axios基本配置，拦截器2，初始化请求一堆接口数据
+    │      utils.js                                     // 工具类方法
     │
-    ├─application
-    │  ├─Album
-    │  │  │  index.js
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
+    ├─application                                      // 应用程序页面
     │  │
-    │  ├─Home
-    │  │      index.js
-    │  │      style.js
+    │  ├─Home                                         // 首页模块
+    │  │      index.js                                 // 首页模块入口文件
+    │  │      style.js                                 // 首页模块样式文件
     │  │
-    │  ├─Player
-    │  │  │  index.js
-    │  │  │
-    │  │  ├─mini-player
-    │  │  │      index.js
-    │  │  │      style.js
-    │  │  │
-    │  │  ├─normal-player
-    │  │  │      index.js
-    │  │  │      style.js
-    │  │  │
-    │  │  ├─play-list
-    │  │  │      index.js
-    │  │  │      style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
-    │  │
-    │  ├─Rank
-    │  │  │  index.js
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          index.js
-    │  │
-    │  ├─Recommend
-    │  │  │  index.js
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
-    │  │
-    │  ├─Search
-    │  │  │  index.js
-    │  │  │  music.png
-    │  │  │  singer.png
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
-    │  │
-    │  ├─Singer
-    │  │  │  index.js
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
-    │  │
-    │  ├─Singers
-    │  │  │  index.js
-    │  │  │  singer.png
-    │  │  │  style.js
-    │  │  │
-    │  │  └─store
-    │  │          actionCreators.js
-    │  │          constants.js
-    │  │          index.js
-    │  │          reducer.js
-    │  │
-    │  ├─SongList
-    │  │      index.js
-    │  │      style.js
-    │  │
-    │  └─User
-    │      └─Login
-    │          │  index.js
-    │          │  style.js
+    │  └─User                                         // 用户模块
+    │      └─Login                                    // 登陆模块
+    │          │  index.js                             // 登陆模块入口文件
+    │          │  style.js                             // 用户登陆模块样式
     │          │
-    │          ├─components
-    │          │  ├─LoginForm
-    │          │  │      index.js
-    │          │  │      style.js
-    │          │  │
-    │          │  └─PhoneForm
-    │          │      │  index.js
-    │          │      │  style.js
-    │          │      │
-    │          │      ├─step-one
-    │          │      │      index.js
-    │          │      │
-    │          │      └─step-two
-    │          │              index.js
-    │          │              style.js
+    │          ├─components                           // 用户模块组件文件夹（子内容同上）
     │          │
-    │          └─store
-    │                  actionCreators.js
-    │                  constants.js
-    │                  index.js
-    │                  reducer.js
+    │          └─store                                // 用户模块的store文件夹 
+    │                  actionCreators.js                //
+    │                  constants.js                     //
+    │                  index.js                         //
+    │                  reducer.js                       //
     │
-    ├─assets             //静态资源文件
-    │  │  back.svg
-    │  │  border.js
-    │  │  music.png
-    │  │
-    │  └─iconfont     //字体图标
+    ├─assets                                           // 静态资源文件
     │
     ├─baseUI
     │  ├─confirm
@@ -241,15 +141,12 @@ npm run build
     │  │      index.js
     │
     ├─components
-    │  ├─album-detail
-    │  │      index.js
-    │  │      style.js
     │  │
     │  ├─list
     │  │      index.js
     │  │      music.png
     │  │      style.js
-    
+    │   
     ├─layouts
     │      BlankLayout.js
     │      HomeLayout.js
