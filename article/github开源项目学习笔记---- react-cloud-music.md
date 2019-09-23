@@ -62,10 +62,14 @@ npm run build
 - 使用  <></> 来代替 ,<div></div>，<Fragment></Fragment>包裹层
 - 使用jest+enzyme做了单元测试
 - 使用concurrently同时启动多个命令
+- 基本使用的都是函数纯组件
 
   
 ### 总结
 styled-components虽然可以把样式封装成一个组件的形式把元素包裹起来，但是IDE的不支持语法高亮，自动补全，个人不太喜欢；
+项目中基本使用的是纯函数组件，性能上比较好；
+
+
   
   
 
