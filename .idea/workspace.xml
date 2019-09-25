@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/node网页爬虫.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/node网页爬虫-Node-SpliderApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/node网页爬虫-Node-SpliderApi.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
       <workItem from="1569245132541" duration="902000" />
       <workItem from="1569254177630" duration="903000" />
       <workItem from="1569330258399" duration="1853000" />
+      <workItem from="1569369803123" duration="1631000" />
     </task>
     <servers />
   </component>
