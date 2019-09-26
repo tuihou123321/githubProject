@@ -48,7 +48,7 @@ docsify serve docs
 │      api.png                                   //资源图片
 │      index.html                                //模板
 │      README.md                                 //主要内容，默认首页
-│      sw.js                                     //
+│      sw.js                                     //离线访问所需文件
 │      _coverpage.md                             //首屏内容设置（模板自带）
 │
 ├─public                                         //静态资源文件                           
