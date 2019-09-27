@@ -1,4 +1,4 @@
-## github开源推荐项目：ant-design-icons
+## 动态导出ant-design-mobile中的icon图标-ant-design-icons
 
 
 
