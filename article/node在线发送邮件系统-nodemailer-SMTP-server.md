@@ -1,7 +1,8 @@
 # node网页爬虫- Node-SpliderApi
 
 ## 项目说明 
-基于node的邮件服务系统，可在线发送邮件
+基于node的邮件服务系统，可在线发送邮件，邮件服务器的权限信息使用了加密方式处理，
+如果想使用自己的服务器，要把加密方式删除，并且使用官方原始代码；核心代码演示如下
 
 **项目地址**：https://github.com/momodiy/nodemailer-SMTP-server
 
@@ -21,6 +22,44 @@ npm run start
 ```
 访问： http://localhost:8888
 
+### 核心代码
+
+```javascript
+
+const nodemailer = require('nodemailer')  
+
+// 设置服务器基本信息
+var mailTransport = nodemailer.createTransport({
+  host : 'smtp.sina.com',
+  secureConnection: true, // use SSL
+  auth : {
+    user : 'konkadigital@sina.cn',
+    pass : 'xxxx'
+  },
+});
+
+//发送邮件的方法
+  mailTransport.sendMail(options, function (err, msg) { // eslint-disable-line
+    if (err) {
+      res.status(500).render('error', {
+        title: err.response,
+        error: {
+          status: err.responseCode,
+          stack: err
+        }
+      })
+    } else {
+      res.status(200).send({
+        msg: '邮件已经发送至：' + msg.accepted,
+        title: '邮件发送成功',
+        type: 'success',
+        status: 200,
+        data: new Date()
+      }).end()
+    }
+  })
+
+```
 
 
 ### 目录结构
