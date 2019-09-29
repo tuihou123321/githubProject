@@ -27,39 +27,25 @@ npm run start
 
 ```$xslt
 │  
-│  app.js
-│  package.json
-│  README.md
-│
-├─public
-│  ├─images
-│  │      node-email-server.webp
-│  │
-│  └─stylesheets
-│          style.css
-│
-├─routes
-│      index.js
-│
-├─test
-│      test.unit.js
-│
-└─views
-    │  error.jade
-    │  layout.jade
-    │
-    └─submit
-        │  index.html
-        │
-        └─assets
-            ├─bootstrap
-            └─js
-                    jquery.backstretch.js
-                    jquery.backstretch.min.js
-                    jquery.blockUI.js
-                    placeholder.js
-                    retina-1.1.0.js
-                    retina-1.1.0.min.js
-                    scripts.js
-
+│  app.js                          //express基本配置：端口监听、插件引入               
+│  package.json                    //依赖包
+│                                                 
+├─public                           //公共资源文件夹
+│                                  
+├─bin                              //可执行文件夹               
+│      start.js                    //启动文件                            
+├─routes                           //路由配置文件夹              
+│      index.js                    //路由配置，并引入nodemailer
+│                                  
+├─test                             //单元测试文件夹               
+│      test.unit.js                //单元测试              
+│                                     
+└─views                            //视图层模板             
+    │  error.jade                  //错误页模板             
+    │  layout.jade                 //布局模板             
+    │                              
+    └─submit                       //视图层模板             
+        │  index.html              //主入口模板             
+        │                          
+        └─assets                   //静态资源             
 ```
