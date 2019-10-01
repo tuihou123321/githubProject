@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,8 @@
       <workItem from="1569679821504" duration="1760000" />
       <workItem from="1569714036795" duration="2051000" />
       <workItem from="1569770507185" duration="418000" />
-      <workItem from="1569855624710" duration="1369000" />
+      <workItem from="1569855624710" duration="1533000" />
+      <workItem from="1569885886536" duration="10947000" />
     </task>
     <servers />
   </component>
