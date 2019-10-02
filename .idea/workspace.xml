@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl-server部分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl-web部分.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/基于vue+MongoDB+爬虫的全栈后台项目-Girl.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../githubProject/Order_NodeJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/article" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -84,7 +86,8 @@
       <workItem from="1569714036795" duration="2051000" />
       <workItem from="1569770507185" duration="418000" />
       <workItem from="1569855624710" duration="1533000" />
-      <workItem from="1569885886536" duration="10947000" />
+      <workItem from="1569885886536" duration="15405000" />
+      <workItem from="1569977171560" duration="8745000" />
     </task>
     <servers />
   </component>
