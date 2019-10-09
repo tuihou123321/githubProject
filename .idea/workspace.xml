@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/后端人员开发的基于antdDesign的后台管理系统-react-antd-admin.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/后端人员开发的基于antdDesign的后台管理系统-react-antd-admin.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/后端人员开发的基于antdDesign的后台管理系统-react-antd-admin.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,8 @@
       <workItem from="1569855624710" duration="1533000" />
       <workItem from="1569885886536" duration="15405000" />
       <workItem from="1569977171560" duration="8745000" />
-      <workItem from="1570539798175" duration="5756000" />
+      <workItem from="1570539798175" duration="6317000" />
+      <workItem from="1570574343571" duration="4141000" />
     </task>
     <servers />
   </component>
