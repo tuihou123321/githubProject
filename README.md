@@ -29,8 +29,3 @@
 - electron
 - ...
 
-### 文章列表
-
-1. [github开源推荐项目：and-design-icons](https://github.com/tuihou123321/githubProject/issues/1)
-
-   
