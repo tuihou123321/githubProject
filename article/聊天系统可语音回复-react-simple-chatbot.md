@@ -18,7 +18,7 @@
 
 ### 启动
 ```javascript
-
+npm install react-simple-chatbot --save
 ```
 
 
