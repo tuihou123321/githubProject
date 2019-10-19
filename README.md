@@ -20,6 +20,7 @@
 
 - react
 - vue
+- typescript
 - webpack
 - next.js
 - ssr
@@ -27,5 +28,11 @@
 - koa
 - express
 - electron
+- websocket
+- canvas
+- 爬虫
+- mysql
+- mongodb
+- 小程序
 - ...
 
