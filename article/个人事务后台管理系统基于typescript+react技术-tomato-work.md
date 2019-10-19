@@ -17,12 +17,19 @@
 - axios
 - andt
 - typescript
+- bizcharts
+- redux-thunk
+- moment
+- lodash
+- query-string
 
 
 
 ### 启动
 ```javascript
-
+npm i
+npm start   //启动
+npm run build  //打包
 ```
 
 
