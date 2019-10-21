@@ -34,5 +34,8 @@
 - mysql
 - mongodb
 - 小程序
+- taro
+- PWA
+- Egg.js
 - ...
 
