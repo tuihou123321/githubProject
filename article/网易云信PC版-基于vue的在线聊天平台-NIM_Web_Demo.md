@@ -33,7 +33,7 @@ eg:
 npm i 
 npm run start
 ```
-http:    //127.0.0.1:8182/webdemo/im/login.html
+http://127.0.0.1:8182/webdemo/im/login.html
 
 
 ### 技术栈

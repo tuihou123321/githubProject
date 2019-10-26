@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/全栈博客系统Mongodb数据库-React-Express-Blog-Demo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/通过node命令下载网易云音乐歌曲-music_download.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/网易云信PC版-基于vue的在线聊天平台-NIM_Web_Demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/网易云信PC版-基于vue的在线聊天平台-NIM_Web_Demo.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +32,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1950" />
-    <option name="y" value="-10" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1RFDuxeOziio9WuiFyUxtUuTHnz" />
   <component name="PropertiesComponent">
@@ -114,6 +109,10 @@
       <workItem from="1571406597649" duration="1206000" />
       <workItem from="1571408107534" duration="1244000" />
       <workItem from="1571480796004" duration="253000" />
+      <workItem from="1571838911750" duration="635000" />
+      <workItem from="1571923682250" duration="189000" />
+      <workItem from="1571924020302" duration="1718000" />
+      <workItem from="1572100794154" duration="1575000" />
     </task>
     <servers />
   </component>
