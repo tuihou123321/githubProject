@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/通过node命令下载网易云音乐歌曲-music_download.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/地图外挂脚本颜色标注-webScript.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/网易云信PC版-基于vue的在线聊天平台-NIM_Web_Demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/网易云信PC版-基于vue的在线聊天平台-NIM_Web_Demo.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
