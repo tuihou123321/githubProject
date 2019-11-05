@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/地图外挂脚本颜色标注-webScript.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/markdown静态站点生成工具-ydoc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
