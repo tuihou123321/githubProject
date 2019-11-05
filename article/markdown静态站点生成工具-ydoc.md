@@ -17,6 +17,9 @@
 
 
 ## 使用说明
-1. ydoc init   //生成架子
-2. ydoc build  //自动打包 docs文件夹下所有文件，并生成 _site目录
-3. ydoc server  //启动静态服务，启动docs目录下的文档，可实时看到内容变化
+
+```
+ ydoc init   //生成架子
+ ydoc build  //自动打包 docs文件夹下所有文件，并生成 _site目录
+ ydoc server  //启动静态服务，启动docs目录下的文档，可实时看到内容变化
+```
