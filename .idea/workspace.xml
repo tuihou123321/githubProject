@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/markdown静态站点生成工具-ydoc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/百度钱包推广H5大量css3动态js特效-baiduWallet.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,6 +112,7 @@
       <workItem from="1571923682250" duration="189000" />
       <workItem from="1571924020302" duration="1718000" />
       <workItem from="1572100794154" duration="1575000" />
+      <workItem from="1573052492991" duration="476000" />
     </task>
     <servers />
   </component>
