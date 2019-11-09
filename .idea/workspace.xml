@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/electron开发的evernote客户端-tusk.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/基于socketIo开发的webQQ在线聊天室.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +17,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>css</find>
-      <find>mai</find>
-      <find>config</find>
-      <find>uti</find>
-      <find>cach</find>
-      <find>modu</find>
-      <find>login</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +102,8 @@
       <workItem from="1571924020302" duration="1718000" />
       <workItem from="1572100794154" duration="1575000" />
       <workItem from="1573052492991" duration="476000" />
-      <workItem from="1573228305214" duration="212000" />
+      <workItem from="1573228305214" duration="760000" />
+      <workItem from="1573260170160" duration="3014000" />
     </task>
     <servers />
   </component>
