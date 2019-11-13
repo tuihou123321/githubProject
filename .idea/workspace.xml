@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/移动端音乐webApp-vue-music-webapp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/网易云音乐nodejsApi服务-NeteaseCloudMusicApi.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,6 +104,7 @@
       <workItem from="1573052492991" duration="476000" />
       <workItem from="1573228305214" duration="760000" />
       <workItem from="1573260170160" duration="3014000" />
+      <workItem from="1573658043180" duration="1403000" />
     </task>
     <servers />
   </component>
