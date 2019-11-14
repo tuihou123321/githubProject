@@ -11,9 +11,15 @@
 
 
 ## 技术栈
-- express    //node服务
+- express    //node web应用程序框架
 - apicache   //express中间件，缓存用
 - pac-proxy-agent //接口请求代理
+- querystring  //处理http请求参数，string与object互转
+- node //使用的node子模块
+  - fs  //文件模块
+  - path //路径
+  - child_process //子程序模块
+
 
 
 ## 启动
@@ -21,6 +27,7 @@
 npm i
 npm start
 ```
+歌曲搜索：http://127.0.0.1:3000/search?keywords=%E6%B5%B7%E9%98%94%E5%A4%A9%E7%A9%BA
 
 ## 主要完成的接口
 -[x] 登陆相关
@@ -35,4 +42,6 @@ npm start
 -[x] 歌手相关
 -[x] more...
 
+其他问题：
+issues修复：https://github.com/Binaryify/NeteaseCloudMusicApi/issues/462
 
