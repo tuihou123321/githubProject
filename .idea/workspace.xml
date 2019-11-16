@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/article/基于nextjs打造的移动端同构贷款项目-react-ssr.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/网易云音乐nodejsApi服务-NeteaseCloudMusicApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/网易云音乐nodejsApi服务-NeteaseCloudMusicApi.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/article" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../githubProject/reactSsrProject/react-ssr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -105,7 +105,11 @@
       <workItem from="1573228305214" duration="760000" />
       <workItem from="1573260170160" duration="3014000" />
       <workItem from="1573658043180" duration="2207000" />
-      <workItem from="1573739406124" duration="1608000" />
+      <workItem from="1573739406124" duration="3140000" />
+      <workItem from="1573821061002" duration="598000" />
+      <workItem from="1573870192182" duration="674000" />
+      <workItem from="1573888025154" duration="3432000" />
+      <workItem from="1573895330490" duration="30000" />
     </task>
     <servers />
   </component>
