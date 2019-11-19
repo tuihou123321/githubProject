@@ -16,3 +16,5 @@
 - apidoc
 - angular.js
 
+
+后台管理界面Demo用户名/密码：admin/123456
