@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ad613c-4463-4439-ace6-ba5ace7abb96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/article/跨端小程序开发-mpvue脚手架-mpvue-quickstart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/支付宝小程序序-豆瓣电影-my.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/article/跨端小程序开发-mpvue脚手架-mpvue-quickstart.md">
+        <entry file="file://$PROJECT_DIR$/article/支付宝小程序序-豆瓣电影-my.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="513">
-                <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="568">
+                <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,6 +39,9 @@
       <find>http-proxy-middleware</find>
       <find>chalk</find>
       <find>semver</find>
+      <find>images</find>
+      <find>ds</find>
+      <find>app.js</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,6 +52,7 @@
       <list>
         <option value="$PROJECT_DIR$/article/微信小程序商城后台redis+mongoDB-m-mall-admin.md" />
         <option value="$PROJECT_DIR$/article/跨端小程序开发-mpvue脚手架-mpvue-quickstart.md" />
+        <option value="$PROJECT_DIR$/article/支付宝小程序序-豆瓣电影-my.md" />
       </list>
     </option>
   </component>
@@ -177,13 +181,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10301000" />
+    <option name="totallyTimeSpent" value="13872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20875067" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20875067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,8 +279,18 @@
     <entry file="file://$PROJECT_DIR$/article/跨端小程序开发-mpvue脚手架-mpvue-quickstart.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="513">
-            <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <first_editor relative-caret-position="2322">
+            <caret line="86" column="56" lean-forward="true" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/支付宝小程序序-豆瓣电影-my.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="568">
+            <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>
